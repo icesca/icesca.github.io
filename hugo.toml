@@ -11,3 +11,10 @@ theme = 'hugo-book'
 # for themes/hugo-book
   BookSearch = false
   BookComments = false
+
+# for raw html like <a...> in markdown file
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
