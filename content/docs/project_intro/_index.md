@@ -1,7 +1,7 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "项目介绍"
+title: '项目介绍'
 ---
 
 **演示入口请跳转**
@@ -17,12 +17,7 @@ title: "项目介绍"
   - 基于该 HTTP 框架，实现具有登录和短文本存取功能的简易网页程序后端
 
 - 分模块解析
-  - [multi-Reactor 网络库模块](../multi-reactor)
-  - [HTTP 模块](../http)
-  - [Web App 演示模块](../web-app)
-
-**联系方式**
-
-- 微信/手机：12345678
-- 邮箱：12345678
+  - [multi-Reactor 网络库模块](/docs/multi-reactor)
+  - [HTTP 模块](/docs/http)
+  - [Web App 演示模块](/docs/web-app)
 
