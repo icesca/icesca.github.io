@@ -6,7 +6,7 @@ title: '项目介绍'
 
 **演示入口请跳转**
 
-- <a href="http://116.62.33.139" target="_blank" rel="noopener noreferrer">http://116.62.33.139</a>
+- <a href="http://116.62.33.139:50000" target="_blank" rel="noopener noreferrer">http://116.62.33.139:50000</a>
 （前端界面，使用 AI 辅助生成）
 
 **项目介绍**
