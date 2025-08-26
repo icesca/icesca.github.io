@@ -1,17 +1,25 @@
 ---
 weight: 2
-title: "multi-Reactor 网络库模块"
+title: "Multi-Reactor 网络库"
 ---
 
-# multi-Reactor 网络库模块
+# Multi-Reactor 网络库模块
 
 ## 技术要点
 
-基于muduo网络库改写，用C++11特性取代boost依赖，  
-使用非阻塞IO + epoll 的IO模型，  
-使用线程池维护若干子事件循环，  
-使用eventfd作为主线程到子线程的通知机制，  
-利用面向对象的编程思想封装TCP连接，需要监听的事件等;  
+1. 基于 muduo 网络库改写，用 C++11 特性取代 boost 依赖，  
+
+2. 使用非阻塞 socket + epoll 的 IO 模型，  
+
+3. 使用线程池维护若干子事件循环，  
+
+4. 使用 eventfd 作为主线程到子线程的通知机制，  
+
+5. 利用面向对象的编程思想封装了相关联的数据和函数  
+如  
+Channel 封装了一个文件描述符、该文件描述符所感兴趣的事件、事件到达时的处理函数 `Channel::handleEvents`  
+TcpConnection 封装了一个 TCP 连接相关的数据：inputBuffer, outputBuffer, connChannel.  
+   
 
 ## 时序图
 

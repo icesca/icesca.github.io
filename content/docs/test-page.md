@@ -91,3 +91,6 @@ int main() {
 }
 ```
 
+## relative permalink and absolute permalink
+[Read more]({{< relref "/docs/http.md" >}})
+[Read more abs]({{< ref "/docs/http.md" >}})
