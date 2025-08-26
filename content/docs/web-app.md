@@ -117,4 +117,4 @@ index.html 即前端文件，其中的 js 代码包含了对后端 api 的调用
 提示词中对业务逻辑和 api 的描述，完全不涉及任何后端 C++ 代码的实现细节，甚至没有告知哪一种交互应该调用哪一些 api 接口来实现，描述中只是单纯地列出 api 接口的说明。同样，后端代码也不需要知道前端细节，是共同的 api 规则将二者耦合在一起。    
 这样一来，实现了前后端相对独立开发的可能性，前端可以独立地用不同的前端框架重构，后端也可以用不同的语言重新实现，体现了前后端分离的思想。  
 
-使用到的完整提示词，见 <a href="https://github.com/icesca/blog-platform" target="_blank" rel="noopener noreferrer">github</a>
+使用到的完整提示词，见 <a href="https://github.com/icesca/blog-platform/blob/v2/frontend/prompt.md?plain=1" target="_blank" rel="noopener noreferrer">github</a>
